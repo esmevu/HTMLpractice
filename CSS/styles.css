@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 23px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 500%;
+  color: #00123B;
+  line-height: 1;
+}
+h2 {
+  font-family: 'Satisfy', cursive;
+  font-size: 230%;
+  font-weight: 100;
+  color: #00123B;
+}
+h3 {
+  font-family: 'Satisfy', cursive;
+  font-size: 170%;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #abc2e8 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 70px auto;
+}
+
+a {
+  color: #00123B;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f4f6ff;
+}
+
+.top-container {
+  background-color: #829FD9;
+  position: relative;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.middle-container {
+  background-color: #f4f6ff;
+}
+
+.bottom-container {
+  background-color: #829FD9;
+  padding: 20px 0 10px;
+}
+
+.greeting {
+  margin: 5%;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 18%;
+  top: 200px;
+}
+
+.sunset-img {
+  width: 44%;
+}
+
+.brief {
+  width: 33%;
+  margin: auto;
+}
+
+.profile {
+  padding-top: 70px;
+}
+
+.profile-img {
+  margin-bottom: 1.5rem;
+  width: 12%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 70px auto;
+  text-align: left;
+}
+
+.Python {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Java {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.row {
+  padding: 3% 12% 7%;
+}
+
+.hobbies-img {
+  margin-bottom: 1.5rem;
+  width: 30%;
+}
+
+.col-lg-4 {
+  padding: 2%;
+}
+
+.copyright {
+  color: #f4f6ff;
+  font-size: 0.75rem;
+}

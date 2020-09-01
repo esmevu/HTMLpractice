@@ -19,30 +19,30 @@
 </head>
 
 <body>
+  <!-- Navigation Bar -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">My Vu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#hobbies">Hobbies</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <div class="top-container">
 
     <div class="container-fluid">
-
-      <!-- Navigation Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">My Vu</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Hobbies</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
 
       <!-- Title -->
       <img class="top-cloud" src="images/cloud.png" alt="clouds-img">
@@ -53,56 +53,65 @@
     </div>
   </div>
 
-
   <div class="middle-container">
-    <div class="profile">
-      <img class="profile-img" src="images/circle-cropped.png" alt="profile-img">
-      <h2>Hello</h2>
-      <p class="brief">I'm currently a sophomore in Juniata College. My major is Computer Science and Integrated Media Arts.
-        I'm seeking for Software Engineer internship in my Junior year.</p>
-    </div>
-    <hr>
-
-    <div class="skills">
-      <h2>My Skills</h2>
-      <div class="skill-row">
-        <img class="Python" src="images/python.png" alt="python-icon">
-        <h3>Python</h3>
-        <p>Having a good grasp of how Python operates. Expanding my knowledge
-          with various libraries such as NumPy, Pandas, MatplotLib...</p>
+    <section id="about">
+      <div class="profile">
+        <img class="profile-img" src="images/circle-cropped.png" alt="profile-img">
+        <h2>Hello</h2>
+        <p class="brief">I'm currently a sophomore in Juniata College. My major is Computer Science and Integrated Media Arts.
+          I'm seeking for Software Engineering Internship in my Junior year.</p>
       </div>
-      <div class="skill-row">
-        <img class="Java" src="images/java.png" alt="java-icon">
-        <h3>Java</h3>
-        <p>Self-learning Java and how to build up a mobile application with this language.
-          Understanding basic concepts and being able to solve different problems.</p>
-      </div>
-    </div>
+    </section>
 
 
     <hr>
 
-    <div class="my-hobbies">
-      <h2>My Hobbies</h2>
 
-      <div class="row">
-        <div class="col-lg-4  web-design">
-          <img class="hobbies-img" src="images/content.png" alt="content-icon">
-          <h3>Designing Website</h3>
-          <p>Self-learning web deisgn with HTML, CSS, and JavaScript.</p>
+    <section id="skills">
+      <div class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-row">
+          <img class="Python" src="images/python.png" alt="python-icon">
+          <h3>Python</h3>
+          <p>Having a good grasp of how Python operates. Expanding my knowledge
+            with various libraries such as NumPy, Pandas, MatplotLib...</p>
         </div>
-        <div class="col-lg-4 videos">
-          <img class="hobbies-img" src="images/video-camera.png" alt="video-icon">
-          <h3>Making videos</h3>
-          <p>Filming and editing videos about my daily life for fun.</p>
-        </div>
-        <div class="col-lg-4 Art">
-          <img class="hobbies-img" src="images/music.png" alt="music-note">
-          <h3>Drawing - Playing music</h3>
-          <p>Creating arts is a good way to meditate and come up with new ideas.</p>
+        <div class="skill-row">
+          <img class="Java" src="images/java.png" alt="java-icon">
+          <h3>Java</h3>
+          <p>Self-learning Java and how to build up a mobile application with this language.
+            Understanding basic concepts and being able to solve different problems.</p>
         </div>
       </div>
-    </div>
+    </section>
+
+
+    <hr>
+
+    <section id="hobbies">
+      <div class="my-hobbies">
+        <h2>My Hobbies</h2>
+
+        <div class="row">
+          <div class="col-lg-4  web-design">
+            <img class="hobbies-img" src="images/content.png" alt="content-icon">
+            <h3>Designing Website</h3>
+            <p>Self-learning web deisgn with HTML, CSS, and JavaScript.</p>
+          </div>
+          <div class="col-lg-4 videos">
+            <img class="hobbies-img" src="images/video-camera.png" alt="video-icon">
+            <h3>Making videos</h3>
+            <p>Filming and editing videos about my daily life for fun.</p>
+          </div>
+          <div class="col-lg-4 Art">
+            <img class="hobbies-img" src="images/music.png" alt="music-note">
+            <h3>Drawing - Playing music</h3>
+            <p>Creating arts is a good way to meditate and come up with new ideas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 
 
@@ -110,7 +119,7 @@
   <div class="bottom-container">
     <a class="btn" href="mailto:esmevu.10@gmail.com">CONTACT ME</a><br>
     <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://github.com/myvu19">GitHub</a>
+    <a class="footer-link" href="https://github.com/esmevu">GitHub</a>
     <a class="footer-link" href="https://dribbble.com/vumt19">Dribbble</a>
     <p class="copyright">© 2020 My Vu.</p>
   </div>
